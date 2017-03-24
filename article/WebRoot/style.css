@@ -1,0 +1,98 @@
+<style type="text/css">
+	* {
+		padding: 0;
+		margin: 0;
+	}
+	ul li {
+		list-style: none;
+	}
+	.banner {
+		height: 400px;
+		/*background: #ccc;*/
+		margin-top: 20px;
+		position: relative;
+		overflow: hidden;
+	}
+	.banner .content {
+		width: 1000px;
+		height: 450px;
+		margin: 20px auto;
+		position: relative;
+		overflow: hidden;
+	}
+	.banner ul li img {
+		width: 1000px ;
+		height: 400px ;
+	}
+	.banner .content ul{
+		width: 10000px;
+/*    margin-left: -1000px;
+*/}
+.fl {float: left;}
+.fr {float: right;}
+.btn_left{
+	display: inline-block;
+	width: 21px;
+	height: 150px;
+	background: #999;
+	position: absolute;
+	left: 38px;
+	top: 90px;
+	opacity: 0;
+	cursor: pointer
+}
+
+.btn_right{
+	display: inline-block;
+	width: 21px;
+	height: 150px;
+	background: #999;
+	background-position: -29px 0;
+	position: absolute;
+	left: 950px;
+	top: 90px;
+	opacity: 0;
+	cursor: pointer
+}
+.banner .content:hover .btn_left{
+	opacity: 0.5;
+}
+
+.banner .content:hover .btn_right{
+	opacity: 0.5;
+}
+body{
+	    font-size:24px;
+	    font-family:Arial;
+		}
+		nav.top a:hover{
+	    
+	    color: #C40000;
+		}
+		nav.top{
+			padding-top: 15px;
+			padding-bottom: 15px;
+			background-color: #f2f2f2;
+		}
+		a{
+			text-decoration:none;
+			color:#999;
+		}
+		.redColor{
+			color: #C40000 !important;
+		}
+		nav.top span, nav.top a{
+			color: #999;
+			margin: 0px 10px 0px 10px;
+		}
+		img.logo{
+			position: absolute;
+			/*left: 300px;
+			top: 30px;*/
+			float: right;
+			z-index: 1;
+			width: 50px;
+			height: 50px;
+		}
+		
+</style>
